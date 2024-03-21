@@ -1,0 +1,52 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+}
+ h1{
+    color: #000;
+ }
+ form{
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px lightpink;
+
+
+ }
+ label{
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+ }
+ input{
+    width: 100px;
+    padding: auto;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 4px;
+ }
+ span{
+    color: red;
+    font-size: 12px;
+    
+    margin-bottom: 18px;
+    display: block;
+ }
+ #submitb{
+
+    background-color: blue;
+    color:rgb(197, 44, 44);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+ }
+ #submitb:hover{
+    background-color: rgb(145, 145, 240);
+ }
